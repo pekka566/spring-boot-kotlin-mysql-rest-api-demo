@@ -24,7 +24,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 @RunWith(SpringRunner::class)
 @SpringBootTest
 @AutoConfigureMockMvc
-abstract class ItemsWebMockTest {
+class ItemsWebMockTest {
 
     @Autowired
     private val mockMvc: MockMvc? = null
